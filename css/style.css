@@ -131,3 +131,8 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+#sites {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
