@@ -116,7 +116,7 @@
 }
 
 body {
-
+  background-color: #89ef01;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -133,6 +133,82 @@ body {
 }
 #sites {
   display:flex;
-  align-items:center;
+
   justify-content:center;
+}
+
+#tron {
+  background-color: #01cd67;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #efefef;
+}
+
+#button {
+  background-color: #01ef89;
+  color: #8901ef;
+}
+ #button:hover {
+  background-color: #8901ef;
+  color: #fff;
+}
+
+#foot {
+  background-color: #01ef89;
+  color: #8901ef;
+  height: 40px;
+  display:flex;
+  align-items:flex-end;
+  margin-bottom:-20px;
+}
+
+#navbar {
+  background-color: #01ef89;
+  color: #8901ef;
+  border-radius: 5px;
+}
+
+
+#active {
+  background-color: #01cd67;
+  color: #8901ef;
+}
+
+#drop {
+  background-color: #01ef89;
+}
+
+#drops {
+  background-color: #01ef89;
+}
+h1 {
+  font-style:oblique;
+}
+
+h5.panel-title {
+  padding:20px;
+  font-size:2em;
+  font-weight:bold;
+}
+.panel {
+  margin-top:0px;
+}
+.panel-heading {
+  padding:0;
+}
+
+.panel-body {
+  padding:0;
+}
+
+a.btn {
+  font-size:1em;
+  background-color: #01ef89;
+  color: #8901ef;
+  margin:20px;
+}
+
+a.btn:hover {
+  background-color: #8901ef;
+  color:#fff;
 }
