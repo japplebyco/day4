@@ -8,6 +8,8 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="#">
+    <link href='https://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Molle:400italic' rel='stylesheet' type='text/css'>
 
     <title>Portfolio</title>
 
@@ -30,7 +32,7 @@
     <![endif]-->
   </head>
 
-  <body>
+  <body data-spy="scroll" data-target="#navbar-example">
 
     <div class="container">
 
@@ -38,21 +40,21 @@
       <nav class="navbar navbar-default">
         <div id="navbar" class="container-fluid">
           <div class="navbar-header">
-            <a class="navbar-brand" href="#">Josh Appleby</a>
+            <a class="navbar-brand" href="#about">Josh Appleby</a>
           </div>
           <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
+            <ul class="nav navbar-nav, nav-tabs" role="tablist">
               <li class="active"><a id="active" href="index.html">Home</a></li>
-              <li><a href="#">About</a></li>
+              <li><a href="#about">About Me</a></li>
               <li><a href="#">Contact</a></li>
               <li class="dropdown">
 
                  <a id="drop" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Websites <span class="caret"></span></a>
 
                 <ul id="drops" class="dropdown-menu">
-                  <li><a href="#">Restaurant Site</a></li>
-                  <li><a href="#">Pet-Store Site</a></li>
-                  <li><a href="#">Biography Site</a></li>
+                  <li><a href="http://geekwiseb2.github.io/restaurante-japplebyco/">Restaurant Site</a></li>
+                  <li><a href="http://geekwiseb2.github.io/pet-store-japplebyco/">Pet-Store Site</a></li>
+                  <li><a href="http://japplebyco.github.io/josh1/">Biography Site</a></li>
                   <!-- <li role="separator" class="divider"></li>
                   <li class="dropdown-header">Nav header</li>
                   <li><a href="#">Separated link</a></li>
@@ -87,7 +89,7 @@
                   <img class="img-responsive" src="img/restaurante.png">
                   <h5 class="panel-title">Restaurant Site</h5>
                   <p class="m-b">This is an example of a restaurante site that I made in bootcamp 2 at Geekwise academy.</p>
-                  <a href="#" target="_blank" class="btn btn-primary-outline btn-sm m-b">
+                  <a href="http://geekwiseb2.github.io/restaurante-japplebyco/" target="_blank" class="btn btn-primary-outline btn-sm m-b">
                     <span class="icon icon-add-user"></span> View
                   </a>
                 </div>
@@ -106,14 +108,14 @@
                   <img class="img-responsive" src="img/petstore.png">
                   <h5 class="panel-title">Pet-Store Site</h5>
                   <p class="m-b">Here is an example of a set-store site that I made in bootcamp 2 at Geekwise academy.</p>
-                  <a href="//github.com/mdo" target="_blank" class="btn btn-primary-outline btn-sm m-b">
+                  <a href="http://geekwiseb2.github.io/pet-store-japplebyco/" target="_blank" class="btn btn-primary-outline btn-sm m-b">
                     <span class="icon icon-add-user"></span> View
                   </a>
                 </div>
               </div>
                 <div>
-                  <h4>Insert h4</h4>
-                  <p>Insert paragraph</p>
+                  <h5>Bootcamp 2 Experience</h5>
+                  <p>I had a lot of fun, and a great experience creating these sites. Please feel free to check them out, and give me feedback via my contact page.</p>
               </div>
             </div>
             <div class="col-md-4 m-b-lg">
@@ -123,23 +125,36 @@
                   <img class="img-responsive" src="img/bio.png">
                   <h5 class="panel-title">Biography Site</h5>
                   <p class="m-b">This is my biographical site that I made in bootcamp 1 at Geekwise academy.</p>
-                  <a href="//github.com/dhg" target="_blank" class="btn btn-primary-outline btn-sm m-b">
+                  <a href="http://japplebyco.github.io/josh1/" target="_blank" class="btn btn-primary-outline btn-sm m-b">
                     <span class="icon icon-add-user"></span> View
                   </a>
                 </div>
               </div>
                 <div>
-                  <h4>Insert h4</h4>
-                  <p>Insert paragraph</p>
+                  <h5>Bootcamp 1 Experience</h5>
+                  <p>I did not know what to expect, before I attended Geekwise Academy. So far, I have had some valuable learning experiences that have helped me get familiar with HTML & CSS.</p>
               </div>
             </div>
           </div>
         </div>
+        <div id="about" class="container">
+          <div class="row">
+            <div class="col-md-12">
+            <h2>About Me</h2>
+            <p>Josh Appleby is a man that wears many hats. He is a husband, father, musician, businessman, church leader, and aspiring computer programer. He has been married to his wife Laura for 11 years, he has 3 daughters; who range in age from 2 months to 4 & 1/2 years, He plays trombone, baritone, and keyboard, he works as a supervisor at Appleby & Company, and volunteers for many church activities. He is also a purveyor of interesting foods & drinks. Among his eclectic interests are; weizenbier, avant garde jazz music, and reformed theology. Josh Appleby is currently attending night school for the purpose of learning computer programming. He is a creative man that is willing to try anything, and most of the time he succeeds. Below is a picture of me and my Bootcamp 1 class.</p>
+            </div>
+          </div>
+        </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div id="bannerHome"></div>
+        </div>
+      </div>
 <footer id="foot">
   <div class="container">
     <p>&copy Copyright 2016 | Josh ApplebyCo |
     <span class="col-md-offset-6">
-      <a style="color: #8901ef;" href=#><i style="margin-right:5px;" class="fa fa-facebook"></i><span>Check me out on Facebook!</span></a>
+      <a style="color: #8901ef; text-decoration:none;" href=https://www.facebook.com/theejosh.appleby><i style="margin-right:5px;" class="fa fa-facebook"></i><span>Check me out on Facebook!</span></a>
     </span></p>
   </div>
 </footer>
