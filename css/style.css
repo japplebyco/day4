@@ -151,7 +151,9 @@ a.navbar-brand {
   border-width: 1px;
   border-color: #efefef;
 }
-
+.jumbotron p {
+  font-weight:700;
+}
 #button {
   background-color: #01ef89;
   color: #8901ef;
@@ -187,22 +189,29 @@ a.navbar-brand {
 }
 
 #drop:hover {
-  background-color:#fff;
+  background-color:#8901ef;
+  color:#fff;
+  text-shadow: -1px -1px #89ef01;
+  font-family: 'Bonbon', cursive;
 }
 
 #drops {
   background-color: #01ef89;
 }
-h1 {
+.jumbotron h1 {
+  text-shadow: 2px 2px #fff;
+  color: #8901ef;
   font-style:oblique;
   font-family: 'Molle', cursive;
 }
 
 h5.panel-title {
+  color: #8901ef;
   padding:20px;
   font-size:2em;
   font-weight:bold;
   font-family: 'Molle', cursive;
+  text-shadow: 2px 2px #fff;
 }
 .panel {
   margin-top:0px;
@@ -223,24 +232,29 @@ a.btn {
   margin:20px;
   font-family: 'Molle', cursive;
   border-radius:33px;
+  text-shadow: 2px 2px #fff;
 }
 
 a.btn:hover {
   background-color: #8901ef;
   color:#fff;
   border-radius:33px;
+  text-shadow: -1px -1px #89ef01;
+  font-family: 'Bonbon', cursive;
 }
 
 h5 {
+  text-shadow: 2px 2px #fff;
   font-family: 'Molle', cursive;
   font-size:2em;
   text-align:center;
+  color: #8901ef;
 }
 
 p {
   font-family: 'Shadows Into Light', cursive;
   font-style:italic;
-
+  font-weight:700;
   font-size:1.5em;
 }
 p.m-b {
@@ -250,6 +264,8 @@ p.m-b {
 }
 
 h2 {
+  text-shadow: 2px 2px #fff;
+  color: #8901ef;
   text-align:center;
   font-size:4em;
   font-family: 'Molle', cursive;
@@ -260,6 +276,8 @@ div.col-md-12 {
   border-radius:5px;
   padding:14px;
   margin:10px;
+  margin-bottom:30px;
+  text-align:center;
 }
 #bannerHome {
     overflow: hidden;
@@ -287,4 +305,9 @@ div.col-md-12 {
 .nav-tabs>li.active>a:hover {
   border: 0px solid #ddd;
 
+}
+
+
+address {
+  font-weight:bold;
 }
